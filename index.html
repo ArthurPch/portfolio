@@ -9,21 +9,20 @@
 <body>
     <header>
         <nav class="nav-bar">
-            <div class ="logo">MonPortfolio</div>
+            <div class="logo">MonPortfolio</div>
             <ul class="nav-list">
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#projects">Projets</a></li>
-                <li><a href="cv">Expérience</a></li>
+                <li><a href="#cv">Expérience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="about">
+    <section id="about" class="reveal">
         <h1>Bonjour je suis <span>Arthur Pocholle</span></h1>
-        <p>Étudiant en cycle informatique et réseau (CIR) au sein de JUNIA Bordeaux, motivé par la cybersécurité, l’intelligence artificielle ainsi que le développement web et logiciel, je recherche une <span>alternance de 3 ans à partir de septembre 2026</span> afin de mettre mes compétences au service du développement d’infrastructures numériques et d’acquérir une expérience professionnelle dans ces domaines. </p>
-
+        <p>Étudiant en cycle informatique et réseau (CIR) au sein de JUNIA Bordeaux, motivé par la cybersécurité, l'intelligence artificielle ainsi que le développement web et logiciel, je recherche une <span>alternance de 3 ans à partir de septembre 2026</span> afin de mettre mes compétences au service du développement d'infrastructures numériques et d'acquérir une expérience professionnelle dans ces domaines.</p>
     </section>
-    <section id="projects">
+    <section id="projects" class="reveal">
         <h2>Projets</h2>
         <div class="project-grid">
             <div class="project-card">
@@ -40,11 +39,14 @@
             </div>
         </div>
     </section>
-    <section id="cv">
+    <section id="cv" class="reveal">
         <h2>Mon CV</h2>
-        <img src="./image/cvsansinfo.jpg" alt="Mon CV">
+        <div class="cv-container">  
+            <img src="./image/cvsansinfo.jpg" alt="Mon CV">
+            <a href="./cv.pdf" download class="cv-button">Télécharger mon CV</a>
+        </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="reveal">
         <h2>Contact</h2>
         <ul class="contact-list">
             <li>
@@ -68,6 +70,6 @@
     <footer>
         <p>© 2025 Arthur Pocholle - Tous droits réservés</p>
     </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
