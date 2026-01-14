@@ -1,7 +1,7 @@
 # Portfolio — Arthur Pocholle
 
 Bienvenue sur mon portfolio personnel !  
-Je suis **étudiant en 2ᵉ année d’école d’ingénieur en informatique**, passionné par le **développement logiciel**, le **web** et la **cybersécurité**.  
+Je suis **étudiant en 2ᵉ année d’école d’ingénieur en informatique** passionné par la **cybersécurité**.  
 Ce site a pour but de regrouper mes **projets**, **compétences** et **expériences techniques** afin de suivre mon évolution dans le domaine.
 
 ## Objectif
